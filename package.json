@@ -1,0 +1,16 @@
+{
+  "name": "sql_dat_querry",
+  "version": "1.0.0",
+  "description": "Testing our knowledge of SQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r dotenv/config test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
+}
