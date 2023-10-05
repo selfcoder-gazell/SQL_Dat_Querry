@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "start": "node -r dotenv/config test.js",
-    "connect": "node -r dotenv/config connect.js",
     "create-tables": "node -r dotenv/config createTables.js",
     "drop-tables": "node -r dotenv/config dropTables.js",
     "seed-data": "node -r dotenv/config seedData.js",
@@ -16,7 +15,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.3.1",
     "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
   }
 }
